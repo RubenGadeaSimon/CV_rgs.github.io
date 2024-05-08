@@ -1,0 +1,154 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+html{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color:whitesmoke;
+}
+
+body{
+    display: flex;
+    min-height: 100vh;
+    width: 100%;
+    /*border: 5px dashed red;*/
+}
+
+a {
+    text-decoration: none; 
+    color: whitesmoke; 
+    font-weight: bold;
+}
+
+.container {
+    display: flex; /* or inline-flex */
+}
+
+.barra_lateral{
+    background-color: rgb(39, 39, 40);
+    display: flex;
+    flex-direction: column;  
+    align-items: stretch;
+    box-shadow: 5px 0px 10px rgba(0, 0, 0, 0.3);
+}
+
+.foto_perfil_container{
+    display: flex;
+    justify-content: center;
+}
+
+.foto_perfil{
+    border: 7px solid white;
+    display: flex;
+    border-radius: 50%;
+    width: 60%;
+}
+
+.titulo{
+    font-size: 400%;
+    padding-left: 9%;
+    padding-right: 17%;
+    padding-top: 10%;
+}
+
+.titulo2{
+    font-size: 130%;
+    padding-top: 3%;
+}
+
+.titulo3{
+    font-size: 80%;
+    padding: 1%;
+    color: rgb(190, 190, 190);
+}
+
+.subtitulo{
+    font-size: 250%;
+    text-align: center;
+    padding-bottom: 5%;
+}
+
+.info{
+    padding-left: 10%;
+}
+
+.titulo_info{
+    font-size: 180%;
+    padding-top: 5%;
+    padding-bottom: 4%;
+}
+
+.enlace_info{
+    padding: 5%;
+}
+
+/* PARTE DERECHA*/
+
+.espacio_principal{
+    display: flex;
+    justify-content: center;
+    width: 80%;
+}
+
+.subcontainer_principal{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    color:rgb(255, 255, 255);
+    height: 100%;
+    width: 90%;
+}
+
+.subcontainer_principal_superior{
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(70, 70, 70);
+    height: 55%;
+    border-bottom: 5px rgb(255, 255, 255);
+    border-spacing: 4px;
+}
+
+.subcontainer_principal_superior_izq{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50%;
+    padding-left: 5%;
+}
+
+.subcontainer_principal_superior_der{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50%;
+    padding-right: 5%;
+}
+
+.subcontainer_principal_inferior{
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(119, 119, 119);
+    height: 35%;
+}
+
+.subcontainer_principal_inferior_izq{
+    width: 35%;
+}
+
+.subcontainer_principal_inferior_der{
+    width: 65%;
+}
+
+.idiomas_container{
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(39, 39, 40);
+    color: white;
+    border-radius: 10px;
+}
+
+.idiomas{
+    width: 50%;
+}
